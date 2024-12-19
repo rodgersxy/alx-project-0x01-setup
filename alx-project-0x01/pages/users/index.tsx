@@ -1,7 +1,6 @@
 // pages/users/index.tsx
 import React from 'react';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import Header from "@/components/layout/Header";
 
 const Users: React.FC = () => {
   return (
@@ -10,10 +9,9 @@ const Users: React.FC = () => {
       <main className="flex-grow container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-6">Users</h1>
         <div className="grid gap-4">
-          
+          {/* Add user list content here */}
         </div>
       </main>
-      <Footer />
     </div>
   );
 };

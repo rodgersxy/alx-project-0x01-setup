@@ -1,8 +1,7 @@
 // pages/posts/index.tsx
 import React from 'react';
+import Header from "@/components/layout/Header";
 import PostCard from '@/components/common/PostCard';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 
 const Posts: React.FC = () => {
   const posts = [
@@ -25,7 +24,6 @@ const Posts: React.FC = () => {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   );
 };
